@@ -14,8 +14,7 @@ const taskSchema = new mongoose.Schema({
     required: true
   },
   status: {
-    type: String,
-    default: 'pending'
+    type: Boolean,
   },
   userID: {
     type: String,
